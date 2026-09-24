@@ -1,4 +1,19 @@
-# Column Generation Cutting Stock
+# Packing and Cutting Optimization
+
+<!-- portfolio-umbrella:start -->
+## Portfolio role
+
+This repository is the primary umbrella repository for this Jors Academy research area. Related projects have been consolidated under `projects/` so the methods, implementations, experiments, and case studies can be maintained and explored from one place.
+
+### Included projects
+
+- [`bin-packing-milp-pulp-visualization`](projects/bin-packing-milp-pulp-visualization/)
+- [`bin-packing-optimization-python`](projects/bin-packing-optimization-python/)
+- [`miter-aware-cutting-stock-milp`](projects/miter-aware-cutting-stock-milp/)
+- [`steel-plate-cutting-optimization-milp`](projects/steel-plate-cutting-optimization-milp/)
+
+Each consolidated project keeps its own files and a `SOURCE_REPOSITORY.md` provenance record. The snapshot preserves the source repository's default-branch files at consolidation time; repository-level history and metadata remain separate from the snapshot.
+<!-- portfolio-umbrella:end -->
 
 A reproducible Operations Research implementation of **column generation** for the one-dimensional cutting-stock problem. The project exposes the restricted master problem, demand dual prices, knapsack pricing problem, reduced costs, stopping rule, and the important distinction between solving the LP relaxation and proving integer optimality.
 
